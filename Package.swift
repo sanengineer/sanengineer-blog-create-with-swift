@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "SanEngineerBlogCreateWithSwift",
+    name: "SanEngineerBlog",
     products: [
         .executable(
-            name: "SanEngineerBlogCreateWithSwift",
-            targets: ["SanEngineerBlogCreateWithSwift"]
+            name: "SanEngineerBlog",
+            targets: ["SanEngineerBlog"]
         )
     ],
     dependencies: [
@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "SanEngineerBlogCreateWithSwift",
+            name: "SanEngineerBlog",
             dependencies: ["Publish"]
         )
     ]
